@@ -1,0 +1,43 @@
+# 依赖
+node_modules/
+**/node_modules/
+oh_modules/
+**/oh_modules/
+
+# 密钥与本地配置
+.env
+.env.*
+*.pem
+*.keystore
+*.p12
+local.properties
+
+# 数据库与运行时数据
+*.db
+*.sqlite
+*.sqlite3
+game.db
+userscore_data.json
+
+# 大体积媒体
+*.mp4
+*.avi
+*.mov
+*.hap
+
+# 构建与预览产物
+build/
+**/build/
+entry/.preview/
+.hvigor/
+.idea/
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# 系统
+.DS_Store
+Thumbs.db

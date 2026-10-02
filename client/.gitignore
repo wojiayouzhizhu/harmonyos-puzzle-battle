@@ -1,0 +1,45 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# 密钥与本地配置
+.env
+.env.*
+*.pem
+*.keystore
+*.p12
+
+# 数据库与运行时数据
+*.db
+*.sqlite
+*.sqlite3
+game.db
+
+# 依赖（覆盖任意层级的 node_modules）
+node_modules/
+**/node_modules/
+oh_modules/
+**/oh_modules/
+
+# 大体积媒体
+*.mp4
+*.avi
+*.mov
+*.hap
+
+# 构建与预览产物
+entry/build/
+entry/.preview/
+.hvigor/
+**/build/
+.idea/
+local.properties

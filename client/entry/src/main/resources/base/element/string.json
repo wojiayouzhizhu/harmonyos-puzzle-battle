@@ -1,0 +1,25 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    }
+    ,
+    {
+      "name": "permission_discover_bluetooth_reason",
+      "value": "用于搜索附近的蓝牙设备进行对战匹配"
+    },
+    {
+      "name": "permission_location_reason",
+      "value": "搜索蓝牙设备需要位置信息支持"
+    }
+  ]
+}

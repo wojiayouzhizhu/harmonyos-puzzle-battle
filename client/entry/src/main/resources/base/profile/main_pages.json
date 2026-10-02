@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoginPage",
+    "pages/select_difficulty",
+    "pages/game",
+    "pages/2p_game",
+    "pages/LeaderboardPage",
+    "pages/TutorialPage"
+  ]
+}
